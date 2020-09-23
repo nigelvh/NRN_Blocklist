@@ -20,7 +20,7 @@ The default format is a very basic HTML page with a simple list of IPs currently
 
 The list accepts submissions from participants who have been issued an API key. If you wish to be issued a key and participate, please reach out.
 
-Submission data is handled via a HTTP/HTTPS POST, with the `key`, `host`, `expires`, `type`, and `service` fields populated.
+Submission data is handled via a HTTP/HTTPS POST, with the `key`, `host`, `expires`, `type`, and `service` fields populated. A simple and crude python script is given in submit_blacklist.py for example.
 
 `key` is the API key you have been issued.
 
