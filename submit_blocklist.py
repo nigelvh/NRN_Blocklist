@@ -3,7 +3,7 @@
 import sys
 import requests
 
-API_ENDPOINT = "https://www.nullroutenetworks.com/blacklist/submit.php"
+API_ENDPOINT = "https://www.nullroutenetworks.com/blocklist/submit.php"
 API_KEY = "YOUR_API_KEY"
 
 if len(sys.argv) < 2:
