@@ -16,6 +16,8 @@ The default format is a very basic HTML page with a simple list of IPs currently
 
 `raw` format provides a plain text list of IPs `\r\n` separated, without the HTML context as in the default format.
 
+The default results set includes both IPv4 and IPv6 families. You can specify a single family by appending `?ipver=4` or `?ipver=6`.
+
 ## Submitting to the List
 
 The list accepts submissions from participants who have been issued an API key. If you wish to be issued a key and participate, please reach out.
